@@ -1,6 +1,8 @@
 # Cleaning BD Landing Page
 
-Welcome to the **Cleaning BD Landing Page**, a dynamically designed and fully responsive web page optimized for all devices. It features 8 sections and 5 distinct pages. Check it out in the screenshots below, or view it live [here](YourLiveLinkHere).
+Welcome to the **Cleaning BD Landing Page**, a dynamically designed and fully responsive web page optimized for all devices. It features 8 sections and 6 distinct pages. Check it out in the screenshots below, or view it live [here](https://cleaningbd.netlify.app/).
+
+## https://cleaningbd.netlify.app
 
 ### Pages Included:
 
