@@ -27,8 +27,8 @@ const BottomNav = () => {
         <div className="lg:hidden block">
           <h1>
             <Link to={""} className="text-2xl font-bold flex items-center">
-              <span> Weepoka</span>
-              <span className="text-primary text-4xl">24</span>
+              <span> Cleaning</span>
+              <span className="text-primary text-4xl">BD</span>
             </Link>
           </h1>
         </div>

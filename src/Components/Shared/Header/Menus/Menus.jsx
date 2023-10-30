@@ -15,7 +15,7 @@ const Menus = ({ handleMenuHide }) => {
       </div>
       {/* -----------Menus */}
       <ul className="flex flex-col lg:flex-row lg:items-center items-start lg:space-x-12 space-x-0 p-5 lg:p-0 leading-[50px] lg:leading-none mt-6 lg:mt-0">
-        <li>
+        <li onClick={handleMenuHide}>
           <Link
             to={"/"}
             className={`font-semibold text-lg hover:text-primary transition-all py-5 inline-block ${
@@ -25,7 +25,7 @@ const Menus = ({ handleMenuHide }) => {
             Home
           </Link>
         </li>
-        <li>
+        <li onClick={handleMenuHide}>
           <Link
             to={"/services"}
             className={`font-semibold text-lg hover:text-primary transition-all py-5 inline-block ${
@@ -35,7 +35,7 @@ const Menus = ({ handleMenuHide }) => {
             <span>Services</span>
           </Link>
         </li>
-        <li>
+        <li onClick={handleMenuHide}>
           <Link
             to={"/pricing"}
             className={`font-semibold text-lg hover:text-primary transition-all py-5 inline-block ${
@@ -45,7 +45,7 @@ const Menus = ({ handleMenuHide }) => {
             Price
           </Link>
         </li>
-        <li>
+        <li onClick={handleMenuHide}>
           <Link
             to={"/contact"}
             className={`font-semibold text-lg hover:text-primary transition-all py-5 inline-block ${

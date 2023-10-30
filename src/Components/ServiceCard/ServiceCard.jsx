@@ -12,14 +12,14 @@ const ServiceCard = ({ id, image, title, icons, discretion }) => {
       transition={{ duration: 1 }}
       viewport={{ once: true }}
     >
-      <div className="relative after:transition-all after:group-hover:bg-main after:group-hover:bg-opacity-25 after:w-full after:h-full after:absolute after:top-0 after:left-0 after:content-[''] after:z-40">
+      <div className="relative after:transition-all after:group-hover:bg-main after:group-hover:bg-opacity-25 after:w-full after:h-full after:absolute ease-linear	 after:top-0 after:left-0 after:content-[''] after:z-40">
         <Link to={`/service/${id}`} className="relative">
           <img
             src={image}
             alt=""
             className="max-h-[200px] h-full w-full object-cover  "
           />
-          <div className="absolute right-0 bottom-0 w-14 h-14 p-3 bg-main transition-all group-hover:left-1/2 group-hover:top-1/2 group-hover:-translate-x-1/2 group-hover:-translate-y-1/2 ">
+          <div className="absolute ease-linear right-0 bottom-0  w-14 h-14 p-3 bg-main transition-transform group-hover:left-1/2 group-hover:top-1/2 group-hover:-translate-x-1/2 group-hover:-translate-y-1/2 ">
             <img src={icons} alt="" />
           </div>
         </Link>

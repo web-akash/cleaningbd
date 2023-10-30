@@ -1,0 +1,10 @@
+.slide-in {
+  transition: max-height 0.3s ease-in-out;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.slide-in.active {
+  max-height: 1000px;
+  transition: max-height 0.3s ease-in-out;
+}
