@@ -10,6 +10,8 @@ import Services from "./Pages/Services";
 import Prices from "./Pages/Prices";
 import Contact from "./Pages/Contact";
 import ServiceDetails from "./Pages/ServiceDetails";
+import { useEffect, useState } from "react";
+import Preloader from "./Utils/Preloader";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -23,7 +25,15 @@ const router = createBrowserRouter(
   )
 );
 function App() {
-  return <RouterProvider router={router} />;
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate a delay to hide the preloader
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+  return <>{loading ? <Preloader /> : <RouterProvider router={router} />}</>;
 }
 
 export default App;
