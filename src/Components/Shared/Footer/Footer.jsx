@@ -171,7 +171,7 @@ const Footer = () => {
                   <li className="flex items-start space-x-3">
                     <img src={call} alt="" className="w-4 mt-1" />
                     <a href="tel:01608371608" className="text-gray-400">
-                      +88 01608371608
+                      01608371608
                     </a>
                   </li>
                 </ul>
